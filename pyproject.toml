@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling>=1.32.4"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nest-bot"
+version = "1.0.0"
+dependencies = [
+    "aiogram>=3.31.0",
+    "SQLAlchemy>=2.0.54",
+    "psycopg[binary]>=3.3.6",
+]
+requires-python = ">=3.13"
+authors = [
+    {name = "Alexander Krechetov", email = "krechet0v.alex@yandex.com"},
+]
+description = "Personal Telegram bot for tracking finances, accounts, transactions and savings goals."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E*",]
+
+[project.urls]
+Repository = "https://github.com/RabidCoder/nest_bot"
